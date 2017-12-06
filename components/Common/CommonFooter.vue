@@ -1,12 +1,14 @@
 <template>
   <div class="footer">
        <ul>
-           <li><router-link to='/music/found'>
+           <li>
+               <router-link to='/music/found'>
                <div class="icon"><i class="fa fa-dot-circle-o" aria-hidden="true"></i></div>
                <div class="icon-nav">发现</div>
                 </router-link>
            </li>
-           <li><router-link to='/music/mymusic'>
+           <li>
+               <router-link to='/music/mymusic'>
                <div class="icon"><i class="fa fa-headphones" aria-hidden="true"></i></div>
                <div class="icon-nav">我的音乐</div>
                </router-link>

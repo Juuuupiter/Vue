@@ -4,7 +4,7 @@ import HelloWorld from '@/components/HelloWorld'
 import CommonFooter from '@/components/Common/CommonFooter'
 import Found from '@/components/Found/found'
 import FoundNav from '@/components/Found/FoundNav'
-import MyMusic from '@/components/MyMusic/mymusic'
+import MyMusic from '@/components/Mymusic/mymusic'
 Vue.use(Router)
 
 export default new Router({
@@ -15,11 +15,8 @@ export default new Router({
     },{
       path:'/music/found',
       component: Found,
-      // redirect:'/music/found',
-      // children:[
-      //   {path:'/movie/found',component:Found}
-      // ]
-    },{
+    }
+    ,{
       path:'/music/mymusic',
       component:MyMusic,
     }

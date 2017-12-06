@@ -14,9 +14,6 @@
         <swipe-item class="slide5"></swipe-item>
       </swipe>
       <router-view></router-view>
-        <!-- <div class="loading" v-show="isShow">
-          <img src="/static/img/loading.gif" alt="">
-      </div> -->
       <found-nav></found-nav>
       <div class="more-music">
         <div class="square">
@@ -25,7 +22,6 @@
           <img src="http://pic.xiami.net/images/album/img89/88/59c1f16eba5c4_4439089_1505882478.jpg@1e_1c_100Q_100w_100h">
           <img src="http://pic.xiami.net/images/album/img41/102841/18696425331459314419.jpg@1e_1c_100Q_100w_100h">
           <i class="fa fa-play-circle-o" aria-hidden="true"></i>
-          <div class="letter">每日推荐30首</div>
         </div>
         <div class="square">
           <img src="http://pic.xiami.net/images/album/img41/430815841/370431512037044.jpg@1e_1c_100Q_185w_185h">
@@ -133,7 +129,7 @@ export default {
     .more-music{
       height: 2.3rem;
       width: 100%;
-      background: lightcoral;
+      /* background: lightcoral; */
       margin-top:1.2rem;
     }
     .square{
