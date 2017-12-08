@@ -5,6 +5,7 @@ import CommonFooter from '@/components/Common/CommonFooter'
 import Found from '@/components/Found/found'
 import FoundNav from '@/components/Found/FoundNav'
 import MyMusic from '@/components/Mymusic/mymusic'
+import MusicNav from '@/components/Mymusic/MusicNav'
 Vue.use(Router)
 
 export default new Router({
