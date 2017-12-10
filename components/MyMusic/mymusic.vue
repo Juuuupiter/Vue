@@ -31,8 +31,10 @@
        <p class="like">可能喜欢的歌单</p>
        <div class="like-list">
            <div class="list">
+               <router-link to='/music/mymusic/list1'>
            <img src="http://pic.xiami.net/images/collect/428/28/359722428_1512028999_2RPL.jpg@1e_1c_100Q_185w_185h">
            <span>in the darkness</span>
+               </router-link>
            </div>
            <div class="list">
            <img src="http://pic.xiami.net/images/collect/373/73/117499373_1442464523_d9U1.jpg@1e_1c_100Q_185w_185h">
@@ -73,6 +75,7 @@
        </div>
        <div class="more">查看更多></div>
        <div class="white"></div>
+       <router-view></router-view>
       <common-footer></common-footer>
   </div>
 </template>
