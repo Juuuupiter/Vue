@@ -43,6 +43,7 @@
            height:0.8rem;
            width: 100%;
            position: fixed;
+           z-index: 5;
            bottom: 0;
        }
        .footer ul{

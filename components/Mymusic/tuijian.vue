@@ -31,7 +31,7 @@ export default {
     mounted(){
        Axios.get(API_PROXY + "http://tingapi.ting.baidu.com/v1/restserver/ting?format=json&method=baidu.ting.billboard.billList&type=1&size=10&offset=0")
        .then((res)=>{
-               console.log(res.data.song_list);
+              //  console.log(res.data.song_list);
                this.shu=res.data.song_list;
                this.src=res.data.song_list[this.shuxing].pic_small; 
                this.title=res.data.song_list[this.shuxing].title;

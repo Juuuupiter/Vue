@@ -21,7 +21,7 @@
           <img src="http://pic.xiami.net/images/album/img54/1654/17127509771472753573.jpg@1e_1c_100Q_100w_100h">
           <img src="http://pic.xiami.net/images/album/img89/88/59c1f16eba5c4_4439089_1505882478.jpg@1e_1c_100Q_100w_100h">
           <img src="http://pic.xiami.net/images/album/img41/102841/18696425331459314419.jpg@1e_1c_100Q_100w_100h">
-          <i class="fa fa-play-circle-o" aria-hidden="true"></i>
+          <!-- <i class="fa fa-play-circle-o" aria-hidden="true"></i> -->
         </div>
         <div class="square">
           <img src="http://pic.xiami.net/images/album/img41/430815841/370431512037044.jpg@1e_1c_100Q_185w_185h">
@@ -30,22 +30,129 @@
           <img src="http://pic.xiami.net/images/album/img50/2450/21029662671512486228.jpg@1e_1c_100Q_185w_185h">
         </div>
       </div>
+      <div class="must-listen">
+        <span>必听·歌单推荐</span>
+        <p>></p>
+      </div>
+    <!-- <md-card-media> -->
+      <!-- swiper -->
+      <swiper :options="swiperOption">
+        <swiper-slide> 
+          <div class="swiper-list">
+          <img src="http://pic.xiami.net/images/album/img75/2075/21029686771512575947.jpg@1e_1c_100Q_185w_185h">
+          <p>ddddddddddddddddddddddd</p>
+          <img src="http://pic.xiami.net/images/collect/643/43/279498643_58fb51757f5d3_jqmv_1492865397.jpg@1e_1c_100Q_185w_185h">
+          <p>ddddddddddddddddddddddd</p>
+          </div>
+          </swiper-slide>
+               <swiper-slide> 
+          <div class="swiper-list">
+          <img src="http://pic.xiami.net/images/album/img64/444764/4447641512444764.jpg@1e_1c_100Q_185w_185h">
+          <p>ddddddddddddddddddddddd</p>
+          <img src="http://pic.xiami.net/images/album/img49/295449/27995271508295449.jpg@1e_1c_100Q_185w_185h">
+          <p>ddddddddddddddddddddddd</p>
+          </div>
+          </swiper-slide>        <swiper-slide> 
+          <div class="swiper-list">
+          <img src="http://pic.xiami.net/images/album/img18/35/5a2a362a5e470_1777318_1512715818.jpg@1e_1c_100Q_185w_185h">
+          <p>ddddddddddddddddddddddd</p>
+         <img src="http://pic.xiami.net/images/appv5/common/20837/5a2d5705aaa65_XWOt_1512920837.jpg@1e_1c_100Q_185w_185h">
+          <p>ddddddddddddddddddddddd</p>
+          </div>
+          </swiper-slide>        <swiper-slide> 
+          <div class="swiper-list">
+          <img src="http://pic.xiami.net/images/appv5/common/15007/5922fc2f5f193_BnTL_1495465007.jpg@1e_1c_100Q_185w_185h">
+          <p>ddddddddddddddddddddddd</p>
+          <img src="http://pic.xiami.net/images/collect/83/83/360144083_1512546141_3qrs.jpg@1e_1c_100Q_185w_185h">
+          <p>ddddddddddddddddddddddd</p>
+          </div>
+          </swiper-slide>        <swiper-slide> 
+          <div class="swiper-list">
+          <img src="http://pic.xiami.net/images/collect/263/63/8504263_1322020093.jpg@1e_1c_100Q_185w_185h">
+          <p>ddddddddddddddddddddddd</p>
+          <img src="http://pic.xiami.net/images/album/img95/44/5a2a2f35446ec_2216495_1512714037.jpg@1e_1c_100Q_185w_185h">
+          <p>ddddddddddddddddddddddd</p>
+          </div>
+          </swiper-slide>
+                  <swiper-slide> 
+          <div class="swiper-list">
+          <img src="http://pic.xiami.net/images/album/img10/3110/3059791379063569.jpg@1e_1c_100Q_100w_100h">
+          <p>ddddddddddddddddddddddd</p>
+          <img src="http://pic.xiami.net/images/collect/643/43/279498643_58fb51757f5d3_jqmv_1492865397.jpg@1e_1c_100Q_185w_185h">
+          <p>ddddddddddddddddddddddd</p>
+          </div>
+          </swiper-slide>
+                  <swiper-slide> 
+          <div class="swiper-list">
+          <img src="http://pic.xiami.net/images/album/img75/2075/21029686771512575947.jpg@1e_1c_100Q_185w_185h">
+          <p>ddddddddddddddddddddddd</p>
+          <img src="http://pic.xiami.net/images/collect/643/43/279498643_58fb51757f5d3_jqmv_1492865397.jpg@1e_1c_100Q_185w_185h">
+          <p>ddddddddddddddddddddddd</p>
+          </div>
+          </swiper-slide>
+                  <swiper-slide> 
+          <div class="swiper-list">
+          <img src="http://pic.xiami.net/images/album/img75/2075/21029686771512575947.jpg@1e_1c_100Q_185w_185h">
+          <p>ddddddddddddddddddddddd</p>
+          <img src="http://pic.xiami.net/images/collect/643/43/279498643_58fb51757f5d3_jqmv_1492865397.jpg@1e_1c_100Q_185w_185h">
+          <p>ddddddddddddddddddddddd</p>
+          </div>
+          </swiper-slide>
+                  <swiper-slide> 
+          <div class="swiper-list">
+          <img src="http://pic.xiami.net/images/album/img75/2075/21029686771512575947.jpg@1e_1c_100Q_185w_185h">
+          <p>ddddddddddddddddddddddd</p>
+          <img src="http://pic.xiami.net/images/collect/643/43/279498643_58fb51757f5d3_jqmv_1492865397.jpg@1e_1c_100Q_185w_185h">
+          <p>ddddddddddddddddddddddd</p>
+          </div>
+          </swiper-slide>
+           <!-- <div class="swiper-pagination" slot="pagination"></div> -->
+      </swiper>
+    <!-- </md-card-media> -->
+    <div class="advertise">
+      <span>广告</span>
+      <p class="adv">我真的很棒呀<i class="fa fa-heart-o" aria-hidden="true"></i></p>
+    </div>
       <common-footer></common-footer>
   </div>
+
+
 </template>
 
 <script>
 import CommonFooter from "../Common/CommonFooter"
 import FoundNav from "./FoundNav"
 import {Swipe,SwipeItem} from "vue-swipe"
+import {swiper, swiperSlide } from 'vue-awesome-swiper'
 import Axios from 'axios'
 import "../../assets/css/vue-swipe.css";
-
+import "../../assets/css/swiper.css";
+// import Swiper from 'swiper'
+// Swiper.use({
+//   name: 'pluginName',
+//   params: {
+//     pluginSwitch: false,
+//   },
+//   on: {
+//     init() {
+//       if (!this.params.pluginSwitch) return
+//       console.log('init')
+//     },
+//     // swiper callback...
+//   }
+// })
 export default {
   data () {
     return {
-            // movieList:[],
-            // isShow   : false
+          swiperOption: {
+          slidesPerView: 3,
+          // spaceBetween: 30,
+          freeMode: true,
+          pagination: {
+          el: '.swiper-pagination',
+          clickable: true
+          }
+        }
     }
   },
        
@@ -53,7 +160,9 @@ export default {
     CommonFooter,
     FoundNav,
     Swipe,
-    SwipeItem
+    SwipeItem,
+    swiper,
+    swiperSlide
   }
 }
 </script>
@@ -73,6 +182,7 @@ export default {
         width: 90%;
         height: 0.6rem;
         margin: 0.1rem auto;
+        z-index: 5;
         
     }
     .search input{
@@ -165,5 +275,35 @@ export default {
       z-index: 3;
       position: relative;
     }
-
+    .must-listen{
+      height: 1rem;
+      width: 100%;
+    }
+   .must-listen span {
+     line-height: 1rem;
+     font-weight: bolder;
+     width: 95%;
+     float: left;
+   }
+    .must-listen p {
+     line-height: 1rem;
+     font-weight: bolder;
+     width: 5%;
+     float: left;
+   }
+   .swiper-list p{
+    word-break: break-all;
+    line-height: 0.3rem;
+    height: 0.8rem;
+   }
+   .advertise{
+     height: 2rem;
+     width: 100%;
+     background: pink;
+     margin-bottom: 0.8rem;
+   }
+   .adv{
+     text-align: center;
+     font-size: 0.5rem;
+   }
 </style>

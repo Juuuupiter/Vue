@@ -1,6 +1,11 @@
 <template>
   <div class="list">
-    <div class="back-to-list"></div>
+    <div class="back-to-list">
+      <div class="back">
+        <p><</p>
+        <p>歌单</p>
+      </div>
+    </div>
     <Tuijian v-for="(obj,index) in shu" :key="index" :shuxing="index"></Tuijian>
        <router-view></router-view>
       <common-footer></common-footer>
@@ -38,6 +43,18 @@ export default {
   height: 3rem;
   background: darkblue;
   
+}
+.back{
+  height: 0.8rem;
+}
+.back p:first-child{
+  width: 5%;
+  float: left;
+}
+.back p:last-child{
+  float: left;
+  width: 95%;
+  text-align: center;
 }
   
   
