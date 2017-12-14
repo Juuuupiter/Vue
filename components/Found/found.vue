@@ -76,7 +76,7 @@
           </swiper-slide>
                   <swiper-slide> 
           <div class="swiper-list">
-          <img src="http://pic.xiami.net/images/album/img10/3110/3059791379063569.jpg@1e_1c_100Q_100w_100h">
+          <img class="cdCover185" src="http://pic.xiami.net/images/album/img10/3110/3059791379063569.jpg@4e_1c_100Q_185w_185h" rel="v:photo" alt="后青春期的诗">
           <p>ddddddddddddddddddddddd</p>
           <img src="http://pic.xiami.net/images/collect/643/43/279498643_58fb51757f5d3_jqmv_1492865397.jpg@1e_1c_100Q_185w_185h">
           <p>ddddddddddddddddddddddd</p>

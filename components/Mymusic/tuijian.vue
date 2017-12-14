@@ -29,7 +29,7 @@ export default {
            }
     },
     mounted(){
-       Axios.get(API_PROXY + "http://tingapi.ting.baidu.com/v1/restserver/ting?format=json&method=baidu.ting.billboard.billList&type=1&size=10&offset=0")
+       Axios.get(API_PROXY + "http://tingapi.ting.baidu.com/v1/restserver/ting?format=json&method=baidu.ting.billboard.billList&type=2&size=10&offset=0")
        .then((res)=>{
               //  console.log(res.data.song_list);
                this.shu=res.data.song_list;
@@ -49,18 +49,22 @@ export default {
 .intro{
   width: 100%;
   /* height: 5rem; */
-  background: firebrick;
   overflow: hidden;
 }
 .intro img{
   height: 0.8rem;
   width: 0.8rem;
-  background: salmon;
   float: left;
 }
 .singer{
    float: left;
 
+}
+.list{
+  margin-bottom:0.3rem; 
+}
+.list:last-child{
+  margin-bottom: 0.8rem;
 }
   
   

@@ -5,8 +5,25 @@
         <p><</p>
         <p>歌单</p>
       </div>
+      <div class="radio">
+          <img src="http://pic.xiami.net/images/collect/273/73/360194273_1512626398_sW1s.jpg@!c-185-185" width="185" height="185" alt="一切的梦想都终将实现">
+          <div class="radio-intro">
+            <p>我是一个戏子在别人的故事里流泪<br>#流行#伤感</p>
+          </div>
+          <div class="radio-nav">
+            <ul>
+              <li></li>
+              <li><i class="fa fa-heart-o" aria-hidden="true"></i>4378</li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
+      </div>
+      
     </div>
+    <div class="list">
     <Tuijian v-for="(obj,index) in shu" :key="index" :shuxing="index"></Tuijian>
+    </div>
        <router-view></router-view>
       <common-footer></common-footer>
   </div>
@@ -40,12 +57,14 @@ export default {
 <style scoped>
 .back-to-list{
   width: 100%;
-  height: 3rem;
-  background: darkblue;
-  
+  height: 3.7rem;
+  background:pink;
 }
 .back{
   height: 0.8rem;
+}
+.back p{
+  font-size: 0.3rem;
 }
 .back p:first-child{
   width: 5%;
@@ -56,7 +75,13 @@ export default {
   width: 95%;
   text-align: center;
 }
-  
-  
-
+.radio img{
+  width: 2rem;
+  height: 2rem;
+  float: left;
+}
+.radio-intro{
+  float: left;
+  margin-left: 0.3rem;
+}
 </style>
