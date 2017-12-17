@@ -13,7 +13,11 @@
                <div class="icon-nav">我的音乐</div>
                </router-link>
            </li>
-           <li></li>
+           <li>
+               <router-link to='/music/listen'>
+               <img src="http://pic.xiami.net/images/album/img84/2099991784/21028780721509354296.jpg@1e_1c_100Q_185w_185h">
+               </router-link>
+               </li>
            <li>
                <div class="icon"><i class="fa fa-smile-o" aria-hidden="true"></i></div>
                <div class="icon-nav">动态</div>

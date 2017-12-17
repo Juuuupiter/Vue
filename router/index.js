@@ -9,6 +9,7 @@ import MyMusic from '@/components/Mymusic/mymusic'
 import MusicNav from '@/components/Mymusic/MusicNav'
 import MusicList from '@/components/Mymusic/musiclist'
 import Tuijian from '@/components/Mymusic/tuijian'
+import Listen from  '@/components/Listening/listen'
 Vue.use(Router)
 Vue.use(VueAwesomeSwiper, /* { default global options } */)
 
@@ -30,6 +31,9 @@ export default new Router({
       },{
         path:'/music/mymusic/list1',
         component:MusicList
+      },{
+        path:'/music/found',
+        component:Listen
       }
   ]
 })

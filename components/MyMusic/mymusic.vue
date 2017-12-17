@@ -37,22 +37,31 @@
                </router-link>
            </div>
            <div class="list">
+               <router-link to='/music/mymusic/list1'>
            <img src="http://pic.xiami.net/images/collect/373/73/117499373_1442464523_d9U1.jpg@1e_1c_100Q_185w_185h">
            <span>ddddddddd</span>
+               </router-link>
            </div>
            <div class="list">
+               <router-link to='/music/mymusic/list1'>
            <img src="http://pic.xiami.net/images/collect/498/98/357554498_1509203178_L8Te.jpeg@1e_1c_100Q_185w_185h">
            <span>ddddddddd</span>
+               </router-link>
+           
            </div> 
        </div>
         <div class="like-list">
            <div class="list">
+               <router-link to='/music/mymusic/list1'>
            <img src="http://pic.xiami.net/images/collect/643/43/279498643_58fb51757f5d3_jqmv_1492865397.jpg@1e_1c_100Q_185w_185h">
            <span>ddddddddd</span>
+               </router-link>
            </div>
            <div class="list">
+               <router-link to='/music/mymusic/list1'>
            <img src="http://pic.xiami.net/images/album/img50/466550/4665501512466550.jpg@1e_1c_100Q_185w_185h">
            <span>ddddddddd</span>
+               </router-link>
            </div>
            <div class="list">
            <img src="http://pic.xiami.net/images/album/img3/62/5a24a6243fcf4_3126803_1512351268.jpg@1e_1c_100Q_185w_185h">
