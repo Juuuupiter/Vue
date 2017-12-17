@@ -19,8 +19,10 @@
                </router-link>
                </li>
            <li>
+               <router-link to='/music/dynamic'>
                <div class="icon"><i class="fa fa-smile-o" aria-hidden="true"></i></div>
                <div class="icon-nav">动态</div>
+               </router-link>
            </li>
            <li>
               <div class="icon"><i class="fa fa-user-o" aria-hidden="true"></i></div>

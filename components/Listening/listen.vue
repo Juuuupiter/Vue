@@ -1,22 +1,19 @@
 <template>
-  <div class="footer">
-    
+  <div class="listening">
+    <common-footer></common-footer>
   </div>
 </template>
 <script>
+import CommonFooter from "../Common/CommonFooter"
 import Axios from 'axios'
 
 export default {
-    mounted(){
-         console.log(5555555555);
-   },  
+
      components: {
+        CommonFooter
        }
 }
 </script>
 <style scoped>
     
-
-    
-
 </style>
