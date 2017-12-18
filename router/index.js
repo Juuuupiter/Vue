@@ -11,6 +11,7 @@ import MusicList from '@/components/Mymusic/musiclist'
 import Tuijian from '@/components/Mymusic/tuijian'
 import Listen from  '@/components/Listening/listen'
 import dynamic from  '@/components/Dynamic/dynamic'
+import All from '@/components/Dynamic/all'
 Vue.use(Router)
 Vue.use(VueAwesomeSwiper, /* { default global options } */)
 
@@ -33,7 +34,11 @@ export default new Router({
         component:Listen
       },{
         path:'/music/dynamic',
-        component:dynamic
+        component:dynamic,
+        redirect:'/music/dynamic/all',
+        children:[
+          {path:'/music/dynamic/all',component:All}
+        ]
       }
   ]
 })

@@ -8,7 +8,7 @@
               
       </div>
       <div class="nav">
-          <p>全部</p>
+          <p> <router-link to='/music/dynamic/all'>全部</router-link></p>
           <p>关注</p>
       </div>
        <!-- <router-view></router-view> -->
@@ -18,10 +18,12 @@
 
 <script>
 import CommonFooter from "../Common/CommonFooter"
+import All from "../Dynamic/all"
 import Axios from "axios"
 export default {
   components:{
-      CommonFooter
+      CommonFooter,
+      All
   }
 }
 </script>
