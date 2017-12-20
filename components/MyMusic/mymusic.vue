@@ -198,7 +198,7 @@ export default {
     .like-list{
         width: 100%;
         height: 2.5rem;
-        margin-top: 0.8rem;
+        margin-top: 0.6rem;
     }
     .list{
         width: 33.33%;

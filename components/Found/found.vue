@@ -145,7 +145,7 @@ export default {
   data () {
     return {
           swiperOption: {
-          slidesPerView: 3,
+          slidesPerView: 3.1,
           // spaceBetween: 30,
           freeMode: true,
           pagination: {
@@ -155,7 +155,17 @@ export default {
         }
     }
   },
-       
+  mounted(){
+       window.onscroll=function(){
+      let scrollTop    = document.documentElement.scrollTop;
+      console.log(scrollTop);
+         if(scrollTop>=161) {
+          //  alert(111)
+            var header = document.getElementById("header");
+            hearder.style.positon =' static';
+         }
+       }
+  },
   components: {
     CommonFooter,
     FoundNav,

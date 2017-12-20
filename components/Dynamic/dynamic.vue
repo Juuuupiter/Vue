@@ -11,6 +11,8 @@
           <p> <router-link to='/music/dynamic/all'>全部</router-link></p>
           <p>关注</p>
       </div>
+
+      <all></all>
        <!-- <router-view></router-view> -->
       <common-footer></common-footer>
   </div>
