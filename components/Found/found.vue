@@ -1,6 +1,6 @@
 <template>
   <div class="found">
-      <div class="header">
+      <div id="header">
           <div class="search">
               <input type="text" placeholder="你不是真正的快乐">
               <i class="fa fa-bell" aria-hidden="true"></i>
@@ -156,13 +156,12 @@ export default {
     }
   },
   mounted(){
-       window.onscroll=function(){
-      let scrollTop    = document.documentElement.scrollTop;
+      window.onscroll=function(){
+      let scrollTop= document.documentElement.scrollTop;
       console.log(scrollTop);
          if(scrollTop>=161) {
-          //  alert(111)
-            var header = document.getElementById("header");
-            hearder.style.positon =' static';
+            let header = document.getElementById('header');
+            header.style.position='absolute';
          }
        }
   },
@@ -180,7 +179,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 
-    .header{
+    #header{
       width: 100%;
       height: 0.8rem;
       background:whitesmoke;
