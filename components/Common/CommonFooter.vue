@@ -25,8 +25,11 @@
                </router-link>
            </li>
            <li>
-              <div class="icon"><i class="fa fa-user-o" aria-hidden="true"></i></div>
+               <router-link to='/music/user'>
+               <div class="icon"><i class="fa fa-user-o" aria-hidden="true"></i></div>
                <div class="icon-nav">账号</div> 
+               </router-link>
+               
            </li>
        </ul>
   </div>

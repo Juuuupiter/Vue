@@ -10,8 +10,10 @@
                <div class="icon-nav">歌单</div>
            </li>
            <li>
+               <router-link to='/music/found/tuijian'>
                <div class="icon"><i class="fa fa-bar-chart" aria-hidden="true"></i></div>
                <div class="icon-nav">排行榜</div>
+               </router-link>
            </li>
            <li>
                <div class="icon"><i class="fa fa-file-audio-o" aria-hidden="true"></i></div>
@@ -36,6 +38,9 @@
 <style scoped>
        a{
          color: white;
+       }
+       i{
+           color: #000;
        }
        .found-nav{
            background:whitesmoke;

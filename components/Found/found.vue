@@ -14,7 +14,7 @@
         <swipe-item class="slide5"></swipe-item>
       </swipe>
       <router-view></router-view>
-      <found-nav></found-nav>
+      <found-nav></found-nav>+
       <div class="more-music">
         <div class="square">
           <img src="http://pic.xiami.net/images/album/img33/1718627433/21002923601466497235.jpg@1e_1c_100Q_100w_100h">
@@ -156,14 +156,14 @@ export default {
     }
   },
   mounted(){
-      window.onscroll=function(){
-      let scrollTop= document.documentElement.scrollTop;
-      console.log(scrollTop);
-         if(scrollTop>=161) {
-            let header = document.getElementById('header');
-            header.style.position='absolute';
-         }
-       }
+      // window.onscroll=function(){
+      // let scrollTop= document.documentElement.scrollTop;
+      // console.log(scrollTop);
+      //    if(scrollTop>=161) {
+      //       let header = document.getElementById('header');
+      //       header.style.position='absolute';
+      //    }
+      //  }
   },
   components: {
     CommonFooter,
